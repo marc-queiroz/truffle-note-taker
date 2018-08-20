@@ -5,7 +5,7 @@
         <v-icon large color='green'>done_all</v-icon>
         <div class="primary--text">SAVED LOCAL</div>
         <v-speed-dial direction="left" fab right absolute open-on-hover transition="slide-x-transition">
-          <v-btn slot="activator" color="green lighter-2" dark fab @click="toggleEdit">
+          <v-btn slot="activator" color="green lighter-2" flat fab @click="toggleEdit">
             <v-icon>edit</v-icon>
           </v-btn>
           <v-spacer></v-spacer>

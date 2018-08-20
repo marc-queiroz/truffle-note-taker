@@ -4,7 +4,7 @@
       <v-layout align-center justify-center>
         <v-flex xs12 class="text-xs-center" pb-4>
           <v-icon size="100px" color="green lighter-2">style</v-icon>
-          <h3 class="primary--text "> Click <v-icon>bookmark</v-icon> to store your cards on blockchain. Click <v-icon>delete</v-icon> to delete them.</h3>
+          <h3 class="primary--text"> Click <v-icon>bookmark</v-icon> to store your cards on blockchain. Click <v-icon>delete</v-icon> to delete them.</h3>
         </v-flex>
       </v-layout>
       <v-layout align-center justify-center pa-6>
@@ -27,6 +27,9 @@
           </v-card> -->
         </v-layout>
       </v-layout>
+      <v-btn dark fab fixed bottom left>
+        <v-icon>add</v-icon>
+      </v-btn>
     </v-container>
   </v-app>
 </template>
