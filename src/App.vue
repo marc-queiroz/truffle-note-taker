@@ -2,11 +2,12 @@
   <v-app id="app">
     <v-container fluid>
       <v-layout align-center justify-center>
-        <v-flex xs12 class="text-xs-center">
-          <v-icon size="100px" color="light-green lighten-1">style</v-icon>
+        <v-flex xs12 class="text-xs-center" pb-4>
+          <v-icon size="100px" color="green lighter-2">style</v-icon>
+          <h3 class="primary--text "> Click <v-icon>bookmark</v-icon> to store your cards on blockchain. Click <v-icon>delete</v-icon> to delete them.</h3>
         </v-flex>
       </v-layout>
-      <v-layout align-center justify-center>
+      <v-layout align-center justify-center pa-6>
         <v-layout row wrap>
           <note-card color="green lighten-5" title="Test" content="ahauahuahauahuaua uahauahu ahua huau"></note-card>
           <note-card color="green lighten-5" title="Test" content="ahauahuahauahuaua uahauahu ahua huau"></note-card>

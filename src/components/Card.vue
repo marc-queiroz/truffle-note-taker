@@ -3,6 +3,7 @@
     <v-card fluid :class="[color, 'elevation-3']">
       <v-card-title>
         <v-icon large color='green'>done_all</v-icon>
+        <div class="primary--text">SAVED LOCAL</div>
         <v-speed-dial direction="left" fab right absolute open-on-hover transition="slide-x-transition">
           <v-btn slot="activator" color="green lighter-2" dark fab @click="toggleEdit">
             <v-icon>edit</v-icon>
@@ -12,14 +13,14 @@
           <v-btn fab dark right color="black"><v-icon>delete</v-icon></v-btn>
         </v-speed-dial>
       </v-card-title>
-      <v-card-text pa-1>
+      <v-card-text>
         <v-form v-if="editing">
           <v-textarea 
             auto-grow
             v-model="content"
           ></v-textarea>
         </v-form>
-        <h3 v-if="!editing">{{ content }}</h3>
+        <div class="subheading" v-if="!editing">{{ content }}</div>
 
       </v-card-text>
       <v-card-actions>

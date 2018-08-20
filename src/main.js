@@ -8,7 +8,7 @@ import Web3 from 'web3'
 
 Vue.use(Vuetify, {
   theme: {
-    primary: colors.green.lighten2, // #E53935
+    primary: colors.green.lighten1, // #E53935
     secondary: colors.green.darken1, // #FFCDD2
     accent: colors.indigo.base // #3F51B5
   }
