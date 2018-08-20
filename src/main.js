@@ -5,7 +5,6 @@ import Vuetify from 'vuetify'
 import colors from 'vuetify/es5/util/colors'
 import App from './App'
 import Web3 from 'web3'
-import router from './router'
 
 Vue.use(Vuetify, {
   theme: {
@@ -30,7 +29,6 @@ window.addEventListener('load', function () {
   /* eslint-disable no-new */
   new Vue({
     el: '#app',
-    router,
     template: '<App/>',
     components: { App }
   })
