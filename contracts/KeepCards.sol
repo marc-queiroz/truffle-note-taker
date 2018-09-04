@@ -21,6 +21,13 @@ contract KeepCards {
         return (amounts[msg.sender]);
     }
 
+    function deleteCard(uint256 index) public {
+        require(index < amounts[msg.sender]);
+        cards[msg.sender][index] = cards[msg.sender][amounts[msg.sender]-1];
+        cards[msg.sender].length--;
+        amounts[msg.sender]--;
+    }  
+
 }
     // function authenticate () public constant returns (bytes32 _pseudo) {
     //     require(exists(msg.sender));
@@ -42,3 +49,5 @@ contract KeepCards {
     //     require(exists(_address));
     //     return (users[_address]);
     // }
+
+// ROPSTEN ==> 0x7353cae6fcca50be63e4685d7dbb9b3b44c8ef51
