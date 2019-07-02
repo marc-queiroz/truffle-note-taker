@@ -17,7 +17,10 @@
   },
   "dependencies": {
     "aes256": "^1.0.4",
+    "ganache-cli": "^6.4.4",
     "pako": "^1.0.6",
+    "solc": "^0.4.15",
+    "truffle": "^5.0.25",
     "truffle-contract": "^3.0.0",
     "vue": "^2.5.16",
     "vuetify": "^1.1.7"
